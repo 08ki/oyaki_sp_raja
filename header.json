@@ -2,20 +2,4 @@
 "name" : "OYAKI難易度表 for SP(beatoraja)",
 "symbol" : "sp親",
 "data_url" : "https://script.google.com/macros/s/AKfycbyoYLMUV8v97rzkjfxR2Qoywbaw1mWnTtC9ZOrcLYlh1ixl_YzzglwKec6R4BA5CC57rQ/exec"
-"course" : [
-	[
-		{
-			"name" : "親機",
-			"constraint" : [
-				"grade_mirror",
-				"gauge_lr2"
-			],
-			"md5" : [
-				"24ce364c5d7ed6805a3b06d741e01c9f",
-				"7c34843f660f660e94024817933302e3",
-				"0e8fc0c649919df15b8050b3fe8217ac"
-			]
-		}
-	]
-]
 }
