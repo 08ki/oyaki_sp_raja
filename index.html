@@ -122,24 +122,24 @@
                             astr += "<br />(" + info[i].name_pack + ")";
                         }
                     }
-                    $("<td width='25%'>" + astr + "</td>").appendTo(str);
+                    $("<td width='20%'>" + astr + "</td>").appendTo(str);
                     // 差分
                     if (info[i].url_diff != "" && info[i].url_diff != null) {
                         if (info[i].name_diff != "" && info[i].name_diff != null) {
-                            $("<td width='13%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
+                            $("<td width='10%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
                         } else {
-                            $("<td width='13%'><a href='" + info[i].url_diff + "'>" + info[i].url_diff + "</a></td>").appendTo(str);
+                            $("<td width='10%'><a href='" + info[i].url_diff + "'>" + info[i].url_diff + "</a></td>").appendTo(str);
                         }
                     } else {
                         if (info[i].name_diff != "" && info[i].name_diff != null) {
-                            $("<td width='13%'>" + info[i].name_diff + "</td>").appendTo(str);
+                            $("<td width='10%'>" + info[i].name_diff + "</td>").appendTo(str);
                         } else {
-                            $("<td width='13%'></td>").appendTo(str);
+                            $("<td width='10%'></td>").appendTo(str);
                         }
                     }
 
                     // Comment
-                    $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);
+                    $("<td width='28%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
 
