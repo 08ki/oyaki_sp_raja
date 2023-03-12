@@ -74,7 +74,7 @@
                     var str = $("<tr></tr>");
 
                     // Level
-                    $("<td width='14%'>" + mark + x + "</td>").appendTo(str);
+                    $("<td width='5%'>" + mark + x + "</td>").appendTo(str);
 
                     // Title
                     if (info[i].md5 != "" && info[i].md5 != null) {
@@ -94,7 +94,7 @@
                         .sha256 + "' target='_blank'>" + 'mocha' + "</a></td>").appendTo(str);
                     
                     // MinIR
-                    $("<td width='7%'>" +
+                    $("<td width='5%'>" +
                         "<a href='https://www.gaftalk.com/minir/#/viewer/song/" + info[i]
                         .sha256 + "/0' target='_blank'>" + 'Min' + "</a></td>").appendTo(str);
                     
@@ -122,24 +122,24 @@
                             astr += "<br />(" + info[i].name_pack + ")";
                         }
                     }
-                    $("<td width='15%'>" + astr + "</td>").appendTo(str);
+                    $("<td width='25%'>" + astr + "</td>").appendTo(str);
                     // 差分
                     if (info[i].url_diff != "" && info[i].url_diff != null) {
                         if (info[i].name_diff != "" && info[i].name_diff != null) {
-                            $("<td width='15%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
+                            $("<td width='13%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
                         } else {
-                            $("<td width='15%'><a href='" + info[i].url_diff + "'>" + info[i].url_diff + "</a></td>").appendTo(str);
+                            $("<td width='13%'><a href='" + info[i].url_diff + "'>" + info[i].url_diff + "</a></td>").appendTo(str);
                         }
                     } else {
                         if (info[i].name_diff != "" && info[i].name_diff != null) {
-                            $("<td width='15%'>" + info[i].name_diff + "</td>").appendTo(str);
+                            $("<td width='13%'>" + info[i].name_diff + "</td>").appendTo(str);
                         } else {
-                            $("<td width='15%'></td>").appendTo(str);
+                            $("<td width='13%'></td>").appendTo(str);
                         }
                     }
 
                     // Comment
-                    $("<td width='23%'>" + info[i].comment + "</td>").appendTo(str);
+                    $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
 
