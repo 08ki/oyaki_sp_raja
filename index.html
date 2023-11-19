@@ -58,7 +58,7 @@
                 var obj = $("#table_int");
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>曲名</th><th>mochaIR</th><th>MinIR</th><th>CinnamonIR</th><th>アーティスト</th>><th>差分</th><th>コメント</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>レベル</th><th>タイトル</th><<th>mochaIR</th><th>MinIR</th><th>CinnamonIR</th><th>アーティスト</th>><th>差分</th><th>コメント</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 for (var i = 0; i < info.length; i++) {
@@ -106,7 +106,7 @@
                         "<a href='https://ir.cinnamon.link/charts/" + info[i]
                         .sha256 + "' target='_blank'>" + 'Cinnamon' + "</a></td>").appendTo(str);
                     
-                    // アーティスト
+                    // Artist
                     var astr = "";
                     if (info[i].url != "" && info[i].url != null) {
                         if (info[i].artist != "" && info[i].artist != null) {
@@ -131,7 +131,8 @@
                         }
                     }
                     $("<td width='20%'>" + astr + "</td>").appendTo(str);
-                    // 差分
+                    
+                    // Diff
                     if (info[i].url_diff != "" && info[i].url_diff != null) {
                         if (info[i].name_diff != "" && info[i].name_diff != null) {
                             $("<td width='10%'><a href='" + info[i].url_diff + "'>" + info[i].name_diff + "</a></td>").appendTo(str);
