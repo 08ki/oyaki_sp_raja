@@ -1,13 +1,23 @@
 {
-  "name":"OYAKI難易度表 for SP(beatoraja)",
-  "symbol":"sp親",
-  "data_url":"https://script.google.com/macros/s/AKfycbyoYLMUV8v97rzkjfxR2Qoywbaw1mWnTtC9ZOrcLYlh1ixl_YzzglwKec6R4BA5CC57rQ/exec",
-  "course":[[
-    {"name":"親機","constraint":["grade_mirror","gauge_lr2"],"charts":[
-      {"title":"Carezza","artist":"Osamu Kubota / obj:OYAKI","sha256":"2b9d0756e771cf86933f13cc8c4643509a6b71fa63d31d4a389bfad7ffbd6891"},
-      {"title":"Rainy/Storm","subtitle":"[7key]","artist":"mocchi_ / obj:OYAKI","sha256":"1fabb6a363768dbe42e4b092a1e8b251f4c1714e65480f97cdae67e94017e496"},
-      {"title":"rust memories","subtitle":"[for beatoraja] [Another_7key]","artist":"Dinger Box vs celtix / obj:OYAKI","sha256":"fe829501a59a51373444ddcb0104339475b2007ec2c4770e0f8994040429bf42"}
+  "name":"OYAKI難易度表 for SP(beatoraja)","symbol":"sp親","data_url":"https://script.google.com/macros/s/AKfycbyoYLMUV8v97rzkjfxR2Qoywbaw1mWnTtC9ZOrcLYlh1ixl_YzzglwKec6R4BA5CC57rQ/exec",
+  "course":[
+    [
+      {"name":"親機","constraint":["grade_mirror","gauge_lr2"],
+        "charts":[
+          {"title":"Carezza","artist":"Osamu Kubota / obj:OYAKI","sha256":"2b9d0756e771cf86933f13cc8c4643509a6b71fa63d31d4a389bfad7ffbd6891"},
+          {"title":"Rainy/Storm","subtitle":"[7key]","artist":"mocchi_ / obj:OYAKI","sha256":"1fabb6a363768dbe42e4b092a1e8b251f4c1714e65480f97cdae67e94017e496"},
+          {"title":"rust memories","subtitle":"[for beatoraja] [Another_7key]","artist":"Dinger Box vs celtix / obj:OYAKI","sha256":"fe829501a59a51373444ddcb0104339475b2007ec2c4770e0f8994040429bf42"}
+        ]
+      }
+    ],
+    [
+      {"name":"親機 Ver.2","constraint":["grade_mirror","gauge_lr2"],
+        "charts":[
+          {"title":"∀77∀H7∀Λ","subtitle":"[SP Another]","artist":"しるい / obj:OYAKI","sha256":"c77417366ea53a1ee566936fa99fac2e69518ed4db5d31a647550df3501d22d4"},
+          {"title":"rust memories","subtitle":"[for beatoraja] [Another_7key]","artist":"Dinger Box vs celtix / obj:OYAKI","sha256":"fe829501a59a51373444ddcb0104339475b2007ec2c4770e0f8994040429bf42"},
+          {"title":"mojavuda","subtitle":"[SP Another]","artist":"Dinger Box / obj:OYAKI","sha256":"a2074f7c6d3495b9eab37613912894df7142304d8b240fe302926dada9fc6b4f"}
+        ]
+      }
     ]
-    }
-  ]]
+  ]
 }
